@@ -39,7 +39,7 @@ const HeroSection = () => {
   return (
   <div className="relative min-h-screen text-black overflow-hidden">
       {/* Background Video - Optimized scaling for all screen sizes */}
-      <video
+   <video
   ref={videoRef}
   autoPlay
   loop
@@ -55,7 +55,7 @@ const HeroSection = () => {
     min-[320px]:scale-[1.5]"  /* very small screens */
   style={{ pointerEvents: "none" }}
 >
-  <source src="/video.mp4" type="video/mp4" />
+  <source src="https://ik.imagekit.io/wcuhazxr8/video.mp4?updatedAt=1755546936520" type="video/mp4" />
 </video>
 
       <div className="absolute top-0 bottom-8 left-0 w-full h-full z-0 pointer-events-none">
